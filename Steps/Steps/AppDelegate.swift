@@ -8,6 +8,19 @@
 
 import UIKit
 
+// MARK:-
+// MARK:-- 自定义log
+func JLH_Log<T>(message : T, file : String = #file, funcName : String = #function, lineNum : Int = #line) {
+    
+    #if DEBUG
+        
+        let fileName = (file as NSString).lastPathComponent
+        
+        print("\(fileName)-\(funcName)-(\(lineNum)):\(message)")
+        
+    #endif
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
