@@ -14,6 +14,8 @@
 		3FEA45031DDE838B0059AE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA45011DDE838B0059AE57 /* LaunchScreen.storyboard */; };
 		3FEA450E1DDE838B0059AE57 /* StepsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA450D1DDE838B0059AE57 /* StepsTests.swift */; };
 		3FEA45191DDE838B0059AE57 /* StepsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA45181DDE838B0059AE57 /* StepsUITests.swift */; };
+		3FF774AD1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF774AC1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift */; };
+		3FF774B11DE3C0D1001AC9C7 /* JLHTabBarSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FF774B01DE3C0D1001AC9C7 /* JLHTabBarSettings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3FEA45141DDE838B0059AE57 /* StepsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEA45181DDE838B0059AE57 /* StepsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsUITests.swift; sourceTree = "<group>"; };
 		3FEA451A1DDE838B0059AE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF774AC1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHBaseTabBarController.swift; sourceTree = "<group>"; };
+		3FF774B01DE3C0D1001AC9C7 /* JLHTabBarSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JLHTabBarSettings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,9 @@
 		3FEA44F71DDE838B0059AE57 /* Steps */ = {
 			isa = PBXGroup;
 			children = (
+				3FF774AE1DE3BEA6001AC9C7 /* Resource */,
+				3FF774A11DE3B6AC001AC9C7 /* BaseCore */,
+				3FF774A71DE3B6AD001AC9C7 /* Business */,
 				3FEA44F81DDE838B0059AE57 /* AppDelegate.swift */,
 				3FEA44FA1DDE838B0059AE57 /* ViewController.swift */,
 				3FEA44FC1DDE838B0059AE57 /* Main.storyboard */,
@@ -123,6 +130,109 @@
 				3FEA451A1DDE838B0059AE57 /* Info.plist */,
 			);
 			path = StepsUITests;
+			sourceTree = "<group>";
+		};
+		3FF774A11DE3B6AC001AC9C7 /* BaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				3FF774A21DE3B6AC001AC9C7 /* JLHBaseUI */,
+				3FF774A31DE3B6AD001AC9C7 /* JLHCache */,
+				3FF774A41DE3B6AD001AC9C7 /* JLHDB */,
+				3FF774A51DE3B6AD001AC9C7 /* JLHNetwork */,
+				3FF774A61DE3B6AD001AC9C7 /* JLHUtility */,
+			);
+			path = BaseCore;
+			sourceTree = "<group>";
+		};
+		3FF774A21DE3B6AC001AC9C7 /* JLHBaseUI */ = {
+			isa = PBXGroup;
+			children = (
+				3FF774AB1DE3B79A001AC9C7 /* JLHTabBarController */,
+			);
+			path = JLHBaseUI;
+			sourceTree = "<group>";
+		};
+		3FF774A31DE3B6AD001AC9C7 /* JLHCache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JLHCache;
+			sourceTree = "<group>";
+		};
+		3FF774A41DE3B6AD001AC9C7 /* JLHDB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JLHDB;
+			sourceTree = "<group>";
+		};
+		3FF774A51DE3B6AD001AC9C7 /* JLHNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JLHNetwork;
+			sourceTree = "<group>";
+		};
+		3FF774A61DE3B6AD001AC9C7 /* JLHUtility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JLHUtility;
+			sourceTree = "<group>";
+		};
+		3FF774A71DE3B6AD001AC9C7 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				3FF774A81DE3B777001AC9C7 /* Message */,
+				3FF774A91DE3B777001AC9C7 /* Profile */,
+				3FF774AA1DE3B777001AC9C7 /* Weibo */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		3FF774A81DE3B777001AC9C7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		3FF774A91DE3B777001AC9C7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3FF774AA1DE3B777001AC9C7 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		3FF774AB1DE3B79A001AC9C7 /* JLHTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				3FF774AC1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift */,
+			);
+			path = JLHTabBarController;
+			sourceTree = "<group>";
+		};
+		3FF774AE1DE3BEA6001AC9C7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3FF774AF1DE3C0D1001AC9C7 /* JLHTabBar */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3FF774AF1DE3C0D1001AC9C7 /* JLHTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				3FF774B01DE3C0D1001AC9C7 /* JLHTabBarSettings.json */,
+			);
+			path = JLHTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEA45031DDE838B0059AE57 /* LaunchScreen.storyboard in Resources */,
+				3FF774B11DE3C0D1001AC9C7 /* JLHTabBarSettings.json in Resources */,
 				3FEA45001DDE838B0059AE57 /* Assets.xcassets in Resources */,
 				3FEA44FE1DDE838B0059AE57 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF774AD1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift in Sources */,
 				3FEA44FB1DDE838B0059AE57 /* ViewController.swift in Sources */,
 				3FEA44F91DDE838B0059AE57 /* AppDelegate.swift in Sources */,
 			);

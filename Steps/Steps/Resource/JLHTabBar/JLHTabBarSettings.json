@@ -1,0 +1,26 @@
+ [
+  {
+  "vcName": "MicroblogViewController",
+  "title": "微博",
+  "image": "tabbar_microblog",
+  
+  },
+  {
+  "vcName": "MessageViewController",
+  "title": "消息",
+  "image": "tabbar_message_center",
+  
+  },
+  {
+  "vcName": "MessageViewController",
+  "title": "广场",
+  "image": "tabbar_discover",
+  
+  },
+  {
+  "vcName": "MessageViewController",
+  "title": "我",
+  "image": "tabbar_profile",
+  
+  },
+  ]
