@@ -13,6 +13,11 @@ class JLHBaseTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        loadViewControllers()
+    }
+    
+    /// 加载所有childViewController
+    private func loadViewControllers() {
         guard let jsonPath = Bundle.main.path(forResource: "JLHTabBarSettings.json", ofType: nil) else {
             assertionFailure("获取配置文件路径失败!")
             return
@@ -29,7 +34,7 @@ class JLHBaseTabBarController: UITabBarController {
         guard let dictArray = anyObject as? [[String : AnyObject]] else {
             return
         }
-
+        
         for dict in dictArray {
             guard let vcName = dict["vcName"] as? String else {
                 continue
@@ -47,9 +52,12 @@ class JLHBaseTabBarController: UITabBarController {
         }
     }
     
-    
-    
-    
+    /// 加载单个childViewController
+    ///
+    /// - Parameters:
+    ///   - viewControllerName: vc类名
+    ///   - title: vc的tabbarItem的title
+    ///   - image: vc的tabbarItem的icon
     private func loadChildViewController(viewControllerName: String, title: String, image: String) {
         guard let nameSpace = Bundle.main.infoDictionary!["CFBundleExecutable"] as? String else {
             assertionFailure("获取命名空间失败!")
