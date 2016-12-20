@@ -1,26 +1,26 @@
  [
   {
-  "vcName": "MicroblogViewController",
+  "vcName": "JLHMicroblogViewController",
   "title": "微博",
-  "image": "tabbar_microblog",
+  "imageName": "tabbar_microblog",
   
   },
   {
-  "vcName": "MessageViewController",
+  "vcName": "JLHMessageViewController",
   "title": "消息",
-  "image": "tabbar_message_center",
+  "imageName": "tabbar_message_center",
   
   },
   {
-  "vcName": "MessageViewController",
+  "vcName": "JLHMessageViewController",
   "title": "广场",
-  "image": "tabbar_discover",
+  "imageName": "tabbar_discover",
   
   },
   {
-  "vcName": "MessageViewController",
+  "vcName": "JLHMessageViewController",
   "title": "我",
-  "image": "tabbar_profile",
+  "imageName": "tabbar_profile",
   
   },
   ]

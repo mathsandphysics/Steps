@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FDC64D41E09A4DA008DD116 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */; };
+		3FDC64D61E09ADBF008DD116 /* JLHMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */; };
+		3FDC64E01E09B4F3008DD116 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */; };
+		3FDC64E11E09B4F3008DD116 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDC64DF1E09B4F3008DD116 /* PopoverViewController.xib */; };
+		3FDC64E31E09BD83008DD116 /* JLHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64E21E09BD83008DD116 /* JLHBaseViewController.swift */; };
+		3FDC64E51E09BDC2008DD116 /* JLHMicroblogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64E41E09BDC2008DD116 /* JLHMicroblogViewController.swift */; };
+		3FDC64E71E09C11E008DD116 /* JLHPopoverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64E61E09C11E008DD116 /* JLHPopoverPresentationController.swift */; };
 		3FEA44F91DDE838B0059AE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA44F81DDE838B0059AE57 /* AppDelegate.swift */; };
-		3FEA44FB1DDE838B0059AE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA44FA1DDE838B0059AE57 /* ViewController.swift */; };
 		3FEA44FE1DDE838B0059AE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA44FC1DDE838B0059AE57 /* Main.storyboard */; };
 		3FEA45001DDE838B0059AE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA44FF1DDE838B0059AE57 /* Assets.xcassets */; };
 		3FEA45031DDE838B0059AE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA45011DDE838B0059AE57 /* LaunchScreen.storyboard */; };
@@ -36,9 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHMessageViewController.swift; sourceTree = "<group>"; };
+		3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		3FDC64DF1E09B4F3008DD116 /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
+		3FDC64E21E09BD83008DD116 /* JLHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHBaseViewController.swift; sourceTree = "<group>"; };
+		3FDC64E41E09BDC2008DD116 /* JLHMicroblogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHMicroblogViewController.swift; sourceTree = "<group>"; };
+		3FDC64E61E09C11E008DD116 /* JLHPopoverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHPopoverPresentationController.swift; sourceTree = "<group>"; };
 		3FEA44F51DDE838B0059AE57 /* Steps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEA44F81DDE838B0059AE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FEA44FA1DDE838B0059AE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FEA44FD1DDE838B0059AE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FEA44FF1DDE838B0059AE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FEA45021DDE838B0059AE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +90,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDC64D21E09A483008DD116 /* JLHCategory */ = {
+			isa = PBXGroup;
+			children = (
+				3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */,
+			);
+			path = JLHCategory;
+			sourceTree = "<group>";
+		};
+		3FDC64D91E09B470008DD116 /* JLHPopover */ = {
+			isa = PBXGroup;
+			children = (
+				3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */,
+				3FDC64DF1E09B4F3008DD116 /* PopoverViewController.xib */,
+				3FDC64E61E09C11E008DD116 /* JLHPopoverPresentationController.swift */,
+			);
+			path = JLHPopover;
+			sourceTree = "<group>";
+		};
 		3FEA44EC1DDE838B0059AE57 = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +135,6 @@
 				3FF774A11DE3B6AC001AC9C7 /* BaseCore */,
 				3FF774A71DE3B6AD001AC9C7 /* Business */,
 				3FEA44F81DDE838B0059AE57 /* AppDelegate.swift */,
-				3FEA44FA1DDE838B0059AE57 /* ViewController.swift */,
 				3FEA44FC1DDE838B0059AE57 /* Main.storyboard */,
 				3FEA44FF1DDE838B0059AE57 /* Assets.xcassets */,
 				3FEA45011DDE838B0059AE57 /* LaunchScreen.storyboard */,
@@ -135,6 +164,7 @@
 		3FF774A11DE3B6AC001AC9C7 /* BaseCore */ = {
 			isa = PBXGroup;
 			children = (
+				3FDC64D21E09A483008DD116 /* JLHCategory */,
 				3FF774A21DE3B6AC001AC9C7 /* JLHBaseUI */,
 				3FF774A31DE3B6AD001AC9C7 /* JLHCache */,
 				3FF774A41DE3B6AD001AC9C7 /* JLHDB */,
@@ -147,7 +177,9 @@
 		3FF774A21DE3B6AC001AC9C7 /* JLHBaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				3FDC64D91E09B470008DD116 /* JLHPopover */,
 				3FF774AB1DE3B79A001AC9C7 /* JLHTabBarController */,
+				3FDC64E21E09BD83008DD116 /* JLHBaseViewController.swift */,
 			);
 			path = JLHBaseUI;
 			sourceTree = "<group>";
@@ -193,6 +225,7 @@
 		3FF774A81DE3B777001AC9C7 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -207,6 +240,7 @@
 		3FF774AA1DE3B777001AC9C7 /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
+				3FDC64E41E09BDC2008DD116 /* JLHMicroblogViewController.swift */,
 			);
 			path = Weibo;
 			sourceTree = "<group>";
@@ -349,6 +383,7 @@
 				3FF774B11DE3C0D1001AC9C7 /* JLHTabBarSettings.json in Resources */,
 				3FEA45001DDE838B0059AE57 /* Assets.xcassets in Resources */,
 				3FEA44FE1DDE838B0059AE57 /* Main.storyboard in Resources */,
+				3FDC64E11E09B4F3008DD116 /* PopoverViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +409,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF774AD1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift in Sources */,
-				3FEA44FB1DDE838B0059AE57 /* ViewController.swift in Sources */,
+				3FDC64D41E09A4DA008DD116 /* UIButton+Extension.swift in Sources */,
+				3FDC64E71E09C11E008DD116 /* JLHPopoverPresentationController.swift in Sources */,
+				3FDC64D61E09ADBF008DD116 /* JLHMessageViewController.swift in Sources */,
+				3FDC64E31E09BD83008DD116 /* JLHBaseViewController.swift in Sources */,
+				3FDC64E51E09BDC2008DD116 /* JLHMicroblogViewController.swift in Sources */,
+				3FDC64E01E09B4F3008DD116 /* PopoverViewController.swift in Sources */,
 				3FEA44F91DDE838B0059AE57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 78R9BF6G74;
 				INFOPLIST_FILE = Steps/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -539,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 78R9BF6G74;
 				INFOPLIST_FILE = Steps/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
