@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5935BC1E311CD2004936D8 /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5935BB1E311CD2004936D8 /* PopoverAnimator.swift */; };
 		3FDC64D41E09A4DA008DD116 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */; };
 		3FDC64D61E09ADBF008DD116 /* JLHMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */; };
 		3FDC64E01E09B4F3008DD116 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F5935BB1E311CD2004936D8 /* PopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
 		3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHMessageViewController.swift; sourceTree = "<group>"; };
 		3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */,
 				3FDC64DF1E09B4F3008DD116 /* PopoverViewController.xib */,
 				3FDC64E61E09C11E008DD116 /* JLHPopoverPresentationController.swift */,
+				3F5935BB1E311CD2004936D8 /* PopoverAnimator.swift */,
 			);
 			path = JLHPopover;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				3FDC64D41E09A4DA008DD116 /* UIButton+Extension.swift in Sources */,
 				3FDC64E71E09C11E008DD116 /* JLHPopoverPresentationController.swift in Sources */,
 				3FDC64D61E09ADBF008DD116 /* JLHMessageViewController.swift in Sources */,
+				3F5935BC1E311CD2004936D8 /* PopoverAnimator.swift in Sources */,
 				3FDC64E31E09BD83008DD116 /* JLHBaseViewController.swift in Sources */,
 				3FDC64E51E09BDC2008DD116 /* JLHMicroblogViewController.swift in Sources */,
 				3FDC64E01E09B4F3008DD116 /* PopoverViewController.swift in Sources */,

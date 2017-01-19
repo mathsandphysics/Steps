@@ -8,6 +8,12 @@
 
 import UIKit
 
+/** 
+ *  需要使用self的地方：
+ *  1. 在函数中出现歧义
+ *  2. 在闭包中使用当前对象的属性和方法
+ */
+
 class PopoverViewController: UIViewController {
 
     override func viewDidLoad() {

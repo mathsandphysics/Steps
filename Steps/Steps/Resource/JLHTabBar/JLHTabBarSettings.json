@@ -1,26 +1,26 @@
- [
-  {
-  "vcName": "JLHMicroblogViewController",
-  "title": "微博",
-  "imageName": "tabbar_microblog",
-  
-  },
-  {
-  "vcName": "JLHMessageViewController",
-  "title": "消息",
-  "imageName": "tabbar_message_center",
-  
-  },
-  {
-  "vcName": "JLHMessageViewController",
-  "title": "广场",
-  "imageName": "tabbar_discover",
-  
-  },
-  {
-  "vcName": "JLHMessageViewController",
-  "title": "我",
-  "imageName": "tabbar_profile",
-  
-  },
-  ]
+[
+ {
+ "vcName": "JLHMicroblogViewController",
+ "title": "微博",
+ "imageName": "tabbar_microblog",
+ 
+ },
+ {
+ "vcName": "JLHMessageViewController",
+ "title": "消息",
+ "imageName": "tabbar_message_center",
+ 
+ },
+ {
+ "vcName": "JLHMessageViewController",
+ "title": "广场",
+ "imageName": "tabbar_discover",
+ 
+ },
+ {
+ "vcName": "JLHMessageViewController",
+ "title": "我",
+ "imageName": "tabbar_profile",
+ 
+ },
+]
