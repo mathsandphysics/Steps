@@ -12,8 +12,8 @@ class JLHBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        automaticallyAdjustsScrollViewInsets = false
+        
     }
 
     override func didReceiveMemoryWarning() {

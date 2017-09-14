@@ -24,7 +24,7 @@ class JLHPopoverPresentationController: UIPresentationController {
 extension JLHPopoverPresentationController {
     func setupCoverView() {
         containerView?.insertSubview(coverView, at: 0)
-        coverView.backgroundColor = UIColor(white: 0.8, alpha: 0.8)
+        coverView.backgroundColor = UIColor(white: 0.8, alpha: 0.45)
         coverView.frame = containerView!.bounds
         let tap = UITapGestureRecognizer(target: self, action: #selector(JLHPopoverPresentationController.coverClick))
         coverView.addGestureRecognizer(tap)

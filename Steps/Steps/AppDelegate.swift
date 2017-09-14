@@ -21,6 +21,10 @@ func JLH_Log<T>(message : T, file : String = #file, funcName : String = #functio
     #endif
 }
 
+let screen_Width = UIScreen.main.bounds.size.width
+let screen_Height = UIScreen.main.bounds.size.height
+
+
 @UIApplicationMain
 class AppDelegate : UIResponder, UIApplicationDelegate {
 
@@ -28,6 +32,9 @@ class AppDelegate : UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        resetTintColor(tintColor: .red)
+        
         window = UIWindow()
         window?.frame = UIScreen.main.bounds
         window?.backgroundColor = UIColor.white
@@ -57,7 +64,12 @@ class AppDelegate : UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
 
+
+extension AppDelegate {
+    fileprivate func resetTintColor(tintColor : UIColor) -> () {
+        UITabBar.appearance().tintColor = tintColor
+        UINavigationBar.appearance().tintColor = tintColor
+    }
+}

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F17564C1E4D31F2001A9C2E /* LinkedListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17564B1E4D31F2001A9C2E /* LinkedListProtocol.swift */; };
+		3F400EF91E45DF4A00F15CB0 /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F400EF81E45DF4A00F15CB0 /* Emoticon.swift */; };
 		3F5935BC1E311CD2004936D8 /* PopoverAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5935BB1E311CD2004936D8 /* PopoverAnimator.swift */; };
+		3FC1B9B21E3C81230038A107 /* UITextView+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1B9B11E3C81230038A107 /* UITextView+Placeholder.swift */; };
 		3FDC64D41E09A4DA008DD116 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */; };
 		3FDC64D61E09ADBF008DD116 /* JLHMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */; };
 		3FDC64E01E09B4F3008DD116 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */; };
@@ -15,6 +18,7 @@
 		3FDC64E31E09BD83008DD116 /* JLHBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64E21E09BD83008DD116 /* JLHBaseViewController.swift */; };
 		3FDC64E51E09BDC2008DD116 /* JLHMicroblogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64E41E09BDC2008DD116 /* JLHMicroblogViewController.swift */; };
 		3FDC64E71E09C11E008DD116 /* JLHPopoverPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDC64E61E09C11E008DD116 /* JLHPopoverPresentationController.swift */; };
+		3FE6D7101E45EFD000B01F1E /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6D70F1E45EFD000B01F1E /* EmoticonPackage.swift */; };
 		3FEA44F91DDE838B0059AE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA44F81DDE838B0059AE57 /* AppDelegate.swift */; };
 		3FEA44FE1DDE838B0059AE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA44FC1DDE838B0059AE57 /* Main.storyboard */; };
 		3FEA45001DDE838B0059AE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA44FF1DDE838B0059AE57 /* Assets.xcassets */; };
@@ -43,7 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F17564B1E4D31F2001A9C2E /* LinkedListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListProtocol.swift; sourceTree = "<group>"; };
+		3F400EF81E45DF4A00F15CB0 /* Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
 		3F5935BB1E311CD2004936D8 /* PopoverAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimator.swift; sourceTree = "<group>"; };
+		3FC1B9B11E3C81230038A107 /* UITextView+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Placeholder.swift"; sourceTree = "<group>"; };
 		3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		3FDC64D51E09ADBF008DD116 /* JLHMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHMessageViewController.swift; sourceTree = "<group>"; };
 		3FDC64DE1E09B4F3008DD116 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,7 @@
 		3FDC64E21E09BD83008DD116 /* JLHBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHBaseViewController.swift; sourceTree = "<group>"; };
 		3FDC64E41E09BDC2008DD116 /* JLHMicroblogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHMicroblogViewController.swift; sourceTree = "<group>"; };
 		3FDC64E61E09C11E008DD116 /* JLHPopoverPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLHPopoverPresentationController.swift; sourceTree = "<group>"; };
+		3FE6D70F1E45EFD000B01F1E /* EmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
 		3FEA44F51DDE838B0059AE57 /* Steps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEA44F81DDE838B0059AE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FEA44FD1DDE838B0059AE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,10 +100,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F400EF71E45DF3B00F15CB0 /* JLHEmoticon */ = {
+			isa = PBXGroup;
+			children = (
+				3F400EF81E45DF4A00F15CB0 /* Emoticon.swift */,
+				3FE6D70F1E45EFD000B01F1E /* EmoticonPackage.swift */,
+				3F17564B1E4D31F2001A9C2E /* LinkedListProtocol.swift */,
+			);
+			path = JLHEmoticon;
+			sourceTree = "<group>";
+		};
+		3FC1B9B01E3C80660038A107 /* JLHTextView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JLHTextView;
+			sourceTree = "<group>";
+		};
 		3FDC64D21E09A483008DD116 /* JLHCategory */ = {
 			isa = PBXGroup;
 			children = (
 				3FDC64D31E09A4DA008DD116 /* UIButton+Extension.swift */,
+				3FC1B9B11E3C81230038A107 /* UITextView+Placeholder.swift */,
 			);
 			path = JLHCategory;
 			sourceTree = "<group>";
@@ -167,6 +193,7 @@
 		3FF774A11DE3B6AC001AC9C7 /* BaseCore */ = {
 			isa = PBXGroup;
 			children = (
+				3F400EF71E45DF3B00F15CB0 /* JLHEmoticon */,
 				3FDC64D21E09A483008DD116 /* JLHCategory */,
 				3FF774A21DE3B6AC001AC9C7 /* JLHBaseUI */,
 				3FF774A31DE3B6AD001AC9C7 /* JLHCache */,
@@ -180,6 +207,7 @@
 		3FF774A21DE3B6AC001AC9C7 /* JLHBaseUI */ = {
 			isa = PBXGroup;
 			children = (
+				3FC1B9B01E3C80660038A107 /* JLHTextView */,
 				3FDC64D91E09B470008DD116 /* JLHPopover */,
 				3FF774AB1DE3B79A001AC9C7 /* JLHTabBarController */,
 				3FDC64E21E09BD83008DD116 /* JLHBaseViewController.swift */,
@@ -413,9 +441,13 @@
 			files = (
 				3FF774AD1DE3B7CA001AC9C7 /* JLHBaseTabBarController.swift in Sources */,
 				3FDC64D41E09A4DA008DD116 /* UIButton+Extension.swift in Sources */,
+				3FE6D7101E45EFD000B01F1E /* EmoticonPackage.swift in Sources */,
 				3FDC64E71E09C11E008DD116 /* JLHPopoverPresentationController.swift in Sources */,
+				3FC1B9B21E3C81230038A107 /* UITextView+Placeholder.swift in Sources */,
 				3FDC64D61E09ADBF008DD116 /* JLHMessageViewController.swift in Sources */,
 				3F5935BC1E311CD2004936D8 /* PopoverAnimator.swift in Sources */,
+				3F17564C1E4D31F2001A9C2E /* LinkedListProtocol.swift in Sources */,
+				3F400EF91E45DF4A00F15CB0 /* Emoticon.swift in Sources */,
 				3FDC64E31E09BD83008DD116 /* JLHBaseViewController.swift in Sources */,
 				3FDC64E51E09BDC2008DD116 /* JLHMicroblogViewController.swift in Sources */,
 				3FDC64E01E09B4F3008DD116 /* PopoverViewController.swift in Sources */,

@@ -13,6 +13,8 @@ class PopoverAnimator: NSObject {
     var isPresented = false
     var presentFrame = CGRect.zero
     var animationDuration = 0.5
+    
+    var closure : ((_ isPresented : Bool) -> ())?
 }
 
 // MARK: - 自定义转场代理人
@@ -26,12 +28,14 @@ extension PopoverAnimator : UIViewControllerTransitioningDelegate {
     // MARK: - 实现弹出动画的对象
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         isPresented = true
+        closure!(isPresented)
         return self
     }
     
     // MARK: - 实现消失动画的对象
     func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         isPresented = false
+        closure!(isPresented)
         return self
     }
 }
